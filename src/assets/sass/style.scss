@@ -1,0 +1,30 @@
+$blue: #0D0B5B;
+$background: #FBF9FD;
+$action: #FFD166;
+
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, "sans-serif";
+  color: $blue;
+  a{
+    text-decoration: none;
+    color: inherit;
+  }
+}
+
+.navbar{
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 40px;
+  font-size: 1em;
+  .navbar__link--strong{
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  .active{
+    text-decoration: underline  ;
+  }
+}

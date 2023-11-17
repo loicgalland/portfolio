@@ -1,3 +1,28 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Poppins, "sans-serif";
+  color: #0D0B5B;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
 
+.navbar {
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 40px;
+  font-size: 1em;
+}
+.navbar .navbar__link--strong {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.navbar .active {
+  text-decoration: underline;
+}
 
 /*# sourceMappingURL=style.css.map */

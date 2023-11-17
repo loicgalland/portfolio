@@ -1,13 +1,13 @@
 import { useState } from 'react'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-
+      Home
     </>
   )
 }
 
-export default App
+export default Home
