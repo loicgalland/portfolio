@@ -6,7 +6,7 @@ export default function Navbar(){
             <NavLink to="/" className={({ isActive})=> isActive ? "active" : ""}>Home</NavLink>
             <NavLink to="/portfolio">Projets</NavLink>
             <Link to="/" className="navbar__link--strong">Loïc Galland</Link>
-            <Link to="/">À propos</Link>
+            <a href="/#about">À propos</a>
             <NavLink to="/contact">Contact</NavLink>
         </nav>
     )
