@@ -11,7 +11,9 @@ body a {
 }
 
 h2 {
+  font-size: 2.5em;
   text-align: center;
+  margin: 0;
 }
 
 .navbar {
@@ -72,7 +74,17 @@ h2 {
   background-color: #FBF9FD;
 }
 
+.link__text {
+  color: #fdbd5b;
+  text-decoration: underline;
+}
+.link__text:hover {
+  color: #fdd8a0;
+}
+
 .footer {
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -95,13 +107,16 @@ h2 {
   -webkit-text-stroke-color: #0D0B5B;
   font-size: 2.5em;
   padding: 100px 0 100px 0;
+  animation: comeFromBottom 500ms ease-in-out;
 }
 .section__homepage .home__title .home__title--blue {
   color: #0D0B5B;
 }
 .section__homepage .home__subtitle {
+  text-align: center;
   font-weight: 400;
   font-size: 1.3em;
+  animation: aparition 800ms ease-in-out;
 }
 .section__homepage .home__cta__container {
   display: flex;
@@ -112,6 +127,12 @@ h2 {
 .section__homepage .arrow-down {
   font-size: 2em;
 }
+.section__homepage .animate-shake {
+  animation: shakeWithDelay 500ms ease-in-out;
+}
+.section__homepage .btn-animation {
+  animation: aparition 800ms ease-in-out;
+}
 
 .section__about {
   z-index: -1;
@@ -121,6 +142,7 @@ h2 {
   align-items: center;
   gap: 15px;
   padding: 300px 0 100px 0;
+  margin-bottom: 50px;
   color: #FBF9FD;
 }
 .section__about .about__image {
@@ -133,10 +155,6 @@ h2 {
 .section__about p {
   text-align: center;
   max-width: 1000px;
-}
-.section__about p .link__text {
-  color: #fdbd5b;
-  text-decoration: underline;
 }
 .section__about .about__skills--logos {
   display: flex;
@@ -153,7 +171,27 @@ h2 {
   font-size: 0.2em;
 }
 
+.project__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project__section .skills__list {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  justify-content: center;
+  margin: 15px 0 35px 0;
+}
+.project__section .project__description {
+  margin-top: 25px;
+  text-align: center;
+  max-width: 1000px;
+}
+
 .projects__list {
+  margin-top: 60px;
+  margin-bottom: 150px;
   padding: 0;
   list-style: none;
 }
@@ -162,6 +200,14 @@ h2 {
 }
 .projects__list .project__title:hover {
   color: #fdbd5b;
+}
+
+.badge {
+  font-size: 0.7em;
+  padding: 5px 20px;
+  color: #FBF9FD;
+  background-color: #0D0B5B;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -240,6 +286,38 @@ h2 {
   }
   .footer .footer__lindekIn {
     order: 3;
+  }
+}
+@keyframes shakeWithDelay {
+  0%, 100% {
+    transform: rotate(0deg) scale(1);
+  }
+  25% {
+    transform: rotate(-15deg) scale(1.1);
+  }
+  50% {
+    transform: rotate(13deg) scale(0.8);
+  }
+  75% {
+    transform: rotate(-10deg) scale(1.1);
+  }
+}
+@keyframes comeFromBottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 1;
+  }
+}
+@keyframes aparition {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 

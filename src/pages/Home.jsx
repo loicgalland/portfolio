@@ -3,10 +3,24 @@ import {Link} from "react-router-dom";
 import Portrait from '../assets/images/portrait.webp'
 import BackgroundImage from '../assets/images/background-image.png'
 import Skills from '../assets/datas/skills.json'
+import {useEffect} from "react";
 
 function Home() {
+    // aniamtion gestion with delay
+    useEffect(() => {
+        const arrowElement = document.querySelector('.arrow-down');
 
-    // Création du style pour le background
+        const shakeWithDelay = () => {
+            arrowElement.classList.add('animate-shake');
+            setTimeout(() => {
+                arrowElement.classList.remove('animate-shake');
+                setTimeout(shakeWithDelay, 2000); // Delay between each repetition
+            }, 500); // Animation duration
+        };
+
+        shakeWithDelay();
+    }, []);
+    // Background style
     const sectionStyle = {
         backgroundImage : `url(${BackgroundImage})`,
         backgroundSize: 'cover',
@@ -19,21 +33,21 @@ function Home() {
                 Je m’appelle <span className="home__title--blue">Loïc Galland</span><br/>
                 Je suis ravis de vous savoir ici !
             </h1>
-            <h2 className="home__subtitle">
+            <span className="home__subtitle">
                 Anciennement graphiste, je me suis reconverti en développeur frontend.<br/>
                 Avec ces deux casquettes, je vous propose de créer un design unique et personnalisé pour votre site internet.
-            </h2>
+            </span>
             <div className="home__cta__container">
                 <Link to="/contact">
                     <Cta
                         text="Contactez-moi"
-                        classname=""
+                        classname="btn-animation"
                     />
                 </Link>
                 <Link to="/portfolio">
                     <Cta
                         text="Voir mes projets"
-                        classname="btn-outlined"
+                        classname="btn-outlined btn-animation"
                     />
                 </Link>
             </div>

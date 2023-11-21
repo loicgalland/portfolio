@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": "1abcd",
     "title": "Booki",
     "imageUrl": [
       "",
@@ -10,20 +10,97 @@
     "skills": [
       "HTML",
       "CSS"
-    ]
+    ],
+    "website": "urlwebsite"
   },
   {
-    "id": 2,
+    "id": "2zedaf",
     "title": "Sophie Buel",
     "imageUrl": [
       "",
       ""
     ],
-    "description": "",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
     "skills": [
       "HTML",
       "CSS",
       "JavaScript"
+    ],
+    "website": "urlwebsite"
+  },
+  {
+    "id": "3defc",
+    "title": "Kasa",
+    "imageUrl": [
+      "",
+      ""
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "JavaScript",
+      "React"
+    ],
+    "website": "urlwebsite"
+  },
+  {
+    "id": "4fekdfc",
+    "title": "Météo",
+    "imageUrl": [
+      "",
+      ""
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Sass",
+      "JavaScript",
+      "React"
+    ],
+    "website": "urlwebsite"
+  },
+  {
+    "id": "5ehdfj",
+    "title": "Musée de la porte du Croux",
+    "imageUrl": [
+      "",
+      ""
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "skills": [
+      "Graphsime",
+      "Photoshop",
+      "InDesign",
+      "Illustrator"
+    ]
+  },
+  {
+    "id": "6okrd",
+    "title": "Pandout",
+    "imageUrl": [
+      "",
+      ""
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "skills": [
+      "Graphsime",
+      "Illustrator"
+    ]
+  },
+  {
+    "id": "6edfhjnxc",
+    "title": "KIN",
+    "imageUrl": [
+      "",
+      ""
+    ],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "skills": [
+      "Illustration",
+      "Illustrator"
     ]
   }
 ]
