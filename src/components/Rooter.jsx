@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Home from "../pages/Home.jsx";
-import Portfolio from "../pages/portfolio.jsx";
-import Project from "../pages/projet.jsx";
+import Portfolio from "../pages/Portfolio.jsx";
+import Project from "../pages/Projet.jsx";
 import Contact from "../pages/Contact.jsx";
 
 export default function Rooter() {

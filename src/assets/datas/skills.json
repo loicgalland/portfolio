@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Html",
+    "url": "fa-brands fa-html5"
+  },
+  {
+    "title": "Css",
+    "url": "fa-brands fa-css3-alt"
+  },
+  {
+    "title": "JavaScript",
+    "url": "fa-brands fa-square-js"
+  },
+  {
+    "title": "React",
+    "url": "fa-brands fa-react"
+  }
+]

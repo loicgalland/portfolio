@@ -1,6 +1,6 @@
 $blue: #0D0B5B;
 $background: #FBF9FD;
-$action: #FFD166;
+$action: #fdbd5b;
 
 body{
   padding: 0;
@@ -13,26 +13,46 @@ body{
     color: inherit;
   }
 }
-
+h2{
+  text-align: center;
+}
 .navbar{
+  z-index: 5;
   position: sticky;
   top: 0;
   background-color: $background;
-  padding: 25px;
-  display: flex;
-  justify-content: center;
-  align-items: baseline;
-  gap: 40px;
-  font-size: 1em;
-  .navbar__link--strong{
-    font-size: 1.3em;
-    font-weight: 600;
+  .icon__close{
+    display: none;
   }
-  .active{
-    text-decoration: underline  ;
+  .active__close{
+    display: flex;
   }
-}
+  .navbar__burger{
+    display: none;
+    .navbar__button{
+      border: none;
+      background-color: inherit;
+      font-size: 1.5em;
+      padding: 25px;
+    }
+  }
+  .navbar__list{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 40px;
+    font-size: 1em;
+    .navbar__link--strong{
+      font-size: 1.3em;
+      font-weight: 600;
+    }
+    .active{
+      text-decoration: underline ;
+    }
+  }
 
+}
 .cta{
   padding: 10px 15px;
   border-radius: 25px;
@@ -52,28 +72,34 @@ body{
   border: 1.6px solid $action;
   background-color: $background;
 }
+.footer{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 25px 25px 25px;
+  i{
+    font-size: 2em;
+  }
+}
 
-.home__container{
-  animation: comeFromBottom 700ms ease-in-out;
-
+.section__homepage{
   display: flex;
   flex-direction: column;
   align-items: center;
   .home__title{
-    padding: 140px;
     text-align: center;
     color: $background;
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: $blue;
     font-size: 2.5em;
-
+    padding: 100px 0 100px 0;
     .home__title--blue{
       color: $blue;
     }
   }
   .home__subtitle{
     font-weight: 400;
-    text-align: center;
     font-size: 1.3em;
   }
   .home__cta__container{
@@ -86,13 +112,137 @@ body{
     font-size: 2em;
   }
 }
-@keyframes comeFromBottom {
-  0%{
-    opacity: 0;
-    transform: translateY(100px);
+.section__about{
+  z-index: -1;
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 300px 0 100px 0;
+  color: $background;
+  .about__image{
+    border-radius: 10px;
   }
-  100%{
-    opacity: 1;
-    transform: translateY(0px);
+  h2{
+    margin: 20px  0 0 5px;
+    font-size: 2.5em;
+  }
+  p{
+    text-align: center;
+    max-width: 1000px;
+    .link__text{
+      color: $action;
+      text-decoration: underline;
+      &:hover{
+
+      }
+    }
+  }
+  .about__skills--logos{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    font-size: 3em;
+  }
+  .skill__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .skill__title{
+      font-size: 0.2em;
+    }
+  }
+}
+
+.projects__list{
+  padding: 0;
+  list-style: none;
+  .project__title{
+    text-align: center;
+    &:hover{
+      color: $action;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .navbar{
+    .navbar__burger{
+      display: flex;
+      justify-content: flex-end;
+    }
+    .active__burger{
+      justify-content: space-between;
+    }
+    .navbar__list{
+      display: none;
+    }
+  }
+  .active__navbar{
+    height: 100vh;
+    .active__list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .navbar__link--strong{
+      display: none;
+    }
+  }
+  .section__homepage{
+    padding: 0 40px;
+    .home__title{
+      padding: 0;
+      font-size: 2.2em;
+    }
+    .home__subtitle{
+      font-size: 1em;
+    }
+    .home__cta__container{
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      margin-bottom: 30px;
+    }
+  }
+  .section__about{
+    transform: translateY(0);
+    padding: 100px 40px;
+    .about__image{
+      order: 2;
+    }
+    .about__title{
+      order: 1;
+      font-size: 2.2em;
+    }
+    p{
+      order: 3;
+      font-size: 1em;
+    }
+    .about__skills__title{
+      order: 4;
+      font-size: 2.2em;
+    }
+    .about__skills--logos{
+      order: 5;
+    }
+  }
+  .cta{
+    font-size: 0.8em;
+  }
+  .footer{
+    justify-content: space-between;
+    .footer__github{
+      order: 1;
+    }
+    .footer__legals{
+      order: 2;
+    }
+    .footer__lindekIn{
+      order: 3;
+    }
   }
 }

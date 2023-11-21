@@ -10,10 +10,32 @@ body a {
   color: inherit;
 }
 
+h2 {
+  text-align: center;
+}
+
 .navbar {
+  z-index: 5;
   position: sticky;
   top: 0;
   background-color: #FBF9FD;
+}
+.navbar .icon__close {
+  display: none;
+}
+.navbar .active__close {
+  display: flex;
+}
+.navbar .navbar__burger {
+  display: none;
+}
+.navbar .navbar__burger .navbar__button {
+  border: none;
+  background-color: inherit;
+  font-size: 1.5em;
+  padding: 25px;
+}
+.navbar .navbar__list {
   padding: 25px;
   display: flex;
   justify-content: center;
@@ -21,11 +43,11 @@ body a {
   gap: 40px;
   font-size: 1em;
 }
-.navbar .navbar__link--strong {
+.navbar .navbar__list .navbar__link--strong {
   font-size: 1.3em;
   font-weight: 600;
 }
-.navbar .active {
+.navbar .navbar__list .active {
   text-decoration: underline;
 }
 
@@ -35,7 +57,7 @@ body a {
   border: none;
   font-size: 1.1em;
   color: #FBF9FD;
-  background-color: #FFD166;
+  background-color: #fdbd5b;
   transform: scale(1);
   transition: transform 200ms ease-in-out;
 }
@@ -45,51 +67,179 @@ body a {
 }
 
 .btn-outlined {
-  color: #FFD166;
-  border: 1.6px solid #FFD166;
+  color: #fdbd5b;
+  border: 1.6px solid #fdbd5b;
   background-color: #FBF9FD;
 }
 
-.home__container {
-  animation: comeFromBottom 700ms ease-in-out;
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 0 25px 25px 25px;
+}
+.footer i {
+  font-size: 2em;
+}
+
+.section__homepage {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.home__container .home__title {
-  padding: 140px;
+.section__homepage .home__title {
   text-align: center;
   color: #FBF9FD;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #0D0B5B;
   font-size: 2.5em;
+  padding: 100px 0 100px 0;
 }
-.home__container .home__title .home__title--blue {
+.section__homepage .home__title .home__title--blue {
   color: #0D0B5B;
 }
-.home__container .home__subtitle {
+.section__homepage .home__subtitle {
   font-weight: 400;
-  text-align: center;
   font-size: 1.3em;
 }
-.home__container .home__cta__container {
+.section__homepage .home__cta__container {
   display: flex;
   gap: 25px;
   padding: 30px;
   margin-bottom: 100px;
 }
-.home__container .arrow-down {
+.section__homepage .arrow-down {
   font-size: 2em;
 }
 
-@keyframes comeFromBottom {
-  0% {
-    opacity: 0;
-    transform: translateY(100px);
+.section__about {
+  z-index: -1;
+  transform: translateY(-50px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding: 300px 0 100px 0;
+  color: #FBF9FD;
+}
+.section__about .about__image {
+  border-radius: 10px;
+}
+.section__about h2 {
+  margin: 20px 0 0 5px;
+  font-size: 2.5em;
+}
+.section__about p {
+  text-align: center;
+  max-width: 1000px;
+}
+.section__about p .link__text {
+  color: #fdbd5b;
+  text-decoration: underline;
+}
+.section__about .about__skills--logos {
+  display: flex;
+  margin-top: 20px;
+  gap: 30px;
+  font-size: 3em;
+}
+.section__about .skill__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__about .skill__item .skill__title {
+  font-size: 0.2em;
+}
+
+.projects__list {
+  padding: 0;
+  list-style: none;
+}
+.projects__list .project__title {
+  text-align: center;
+}
+.projects__list .project__title:hover {
+  color: #fdbd5b;
+}
+
+@media only screen and (max-width: 500px) {
+  .navbar .navbar__burger {
+    display: flex;
+    justify-content: flex-end;
   }
-  100% {
-    opacity: 1;
-    transform: translateY(0px);
+  .navbar .active__burger {
+    justify-content: space-between;
+  }
+  .navbar .navbar__list {
+    display: none;
+  }
+  .active__navbar {
+    height: 100vh;
+  }
+  .active__navbar .active__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .active__navbar .navbar__link--strong {
+    display: none;
+  }
+  .section__homepage {
+    padding: 0 40px;
+  }
+  .section__homepage .home__title {
+    padding: 0;
+    font-size: 2.2em;
+  }
+  .section__homepage .home__subtitle {
+    font-size: 1em;
+  }
+  .section__homepage .home__cta__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .section__about {
+    transform: translateY(0);
+    padding: 100px 40px;
+  }
+  .section__about .about__image {
+    order: 2;
+  }
+  .section__about .about__title {
+    order: 1;
+    font-size: 2.2em;
+  }
+  .section__about p {
+    order: 3;
+    font-size: 1em;
+  }
+  .section__about .about__skills__title {
+    order: 4;
+    font-size: 2.2em;
+  }
+  .section__about .about__skills--logos {
+    order: 5;
+  }
+  .cta {
+    font-size: 0.8em;
+  }
+  .footer {
+    justify-content: space-between;
+  }
+  .footer .footer__github {
+    order: 1;
+  }
+  .footer .footer__legals {
+    order: 2;
+  }
+  .footer .footer__lindekIn {
+    order: 3;
   }
 }
 
