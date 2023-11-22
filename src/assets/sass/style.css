@@ -13,7 +13,7 @@ body a {
 h2 {
   font-size: 2.5em;
   text-align: center;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 .navbar {
@@ -53,6 +53,11 @@ h2 {
   text-decoration: underline;
 }
 
+.blue {
+  background: #0D0B5B;
+  color: #FBF9FD;
+}
+
 .cta {
   padding: 10px 15px;
   border-radius: 25px;
@@ -84,12 +89,14 @@ h2 {
 
 .footer {
   position: fixed;
+  right: 0;
   bottom: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   padding: 0 25px 25px 25px;
+  font-size: 0.8em;
 }
 .footer i {
   font-size: 2em;
@@ -196,6 +203,7 @@ h2 {
   list-style: none;
 }
 .projects__list .project__title {
+  padding-top: 10px;
   text-align: center;
 }
 .projects__list .project__title:hover {
@@ -208,6 +216,26 @@ h2 {
   color: #FBF9FD;
   background-color: #0D0B5B;
   border-radius: 25px;
+}
+
+.section__contact {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0D0B5B;
+  color: #FBF9FD;
+  text-align: center;
+}
+.section__contact .contact__title {
+  margin-bottom: 50px;
+}
+.section__contact .contact__phone {
+  margin-top: 50px;
+  max-width: 300px;
+}
+.section__contact .contact__phone .phone__number {
+  font-weight: 700;
 }
 
 @media only screen and (max-width: 500px) {
@@ -272,10 +300,19 @@ h2 {
   .section__about .about__skills--logos {
     order: 5;
   }
+  .project__section {
+    margin-bottom: 25px;
+  }
+  .project__section .project__description {
+    max-width: 300px;
+    font-size: 1em;
+  }
   .cta {
     font-size: 0.8em;
   }
   .footer {
+    font-size: 0.8em;
+    position: static;
     justify-content: space-between;
   }
   .footer .footer__github {

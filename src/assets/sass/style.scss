@@ -14,16 +14,18 @@ body{
     color: inherit;
   }
 }
+
 h2{
   font-size: 2.5em;
   text-align: center;
-  margin: 0;
+  margin: 20px 0 0 0 ;
 }
 .navbar{
   z-index: 5;
   position: sticky;
   top: 0;
   background-color: $background;
+
   .icon__close{
     display: none;
   }
@@ -56,6 +58,10 @@ h2{
   }
 
 }
+.blue{
+  background: $blue;
+  color: $background;
+}
 .cta{
   padding: 10px 15px;
   border-radius: 25px;
@@ -84,12 +90,14 @@ h2{
 }
 .footer{
   position: fixed;
+  right: 0;
   bottom: 0;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   gap: 20px;
   padding: 0 25px 25px 25px;
+  font-size: 0.8em;
   i{
     font-size: 2em;
   }
@@ -193,6 +201,7 @@ h2{
   padding: 0;
   list-style: none;
   .project__title{
+    padding-top: 10px;
     text-align: center;
     &:hover{
       color: $action;
@@ -205,6 +214,25 @@ h2{
   color: $background;
   background-color: $blue;
   border-radius: 25px;
+}
+.section__contact{
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $blue;
+  color: $background;
+  text-align: center;
+  .contact__title{
+    margin-bottom: 50px;
+  }
+  .contact__phone{
+    margin-top: 50px;
+    max-width: 300px;
+    .phone__number{
+      font-weight: 700;
+    }
+  }
 }
 @media only screen and (max-width: 500px){
   .navbar{
@@ -270,10 +298,19 @@ h2{
       order: 5;
     }
   }
+  .project__section{
+    .project__description{
+      max-width: 300px;
+      font-size: 1em;
+    }
+    margin-bottom: 25px;
+  }
   .cta{
     font-size: 0.8em;
   }
   .footer{
+    font-size: 0.8em;
+    position: static;
     justify-content: space-between;
     .footer__github{
       order: 1;
@@ -285,7 +322,9 @@ h2{
       order: 3;
     }
   }
+
 }
+
 
 
 @keyframes shakeWithDelay {
