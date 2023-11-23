@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 
 export default function Portfolio(){
     return(
-        <div>
+        <div className="portfolio__container">
             <h2>PortFolio</h2>
             <ul className="projects__list">
                 {Projects.map((project) =>(

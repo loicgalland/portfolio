@@ -89,11 +89,8 @@ h2{
   }
 }
 .footer{
-  position: fixed;
-  right: 0;
-  bottom: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 0 25px 25px 25px;
@@ -120,6 +117,7 @@ h2{
     }
   }
   .home__subtitle{
+    max-width: 800px;
     text-align: center;
     font-weight: 400;
     font-size: 1.3em;
@@ -149,7 +147,6 @@ h2{
   align-items: center;
   gap: 15px;
   padding: 300px 0 100px 0;
-  margin-bottom: 50px;
   color: $background;
   .about__image{
     border-radius: 10px;
@@ -167,11 +164,19 @@ h2{
     margin-top: 20px;
     gap: 30px;
     font-size: 3em;
+    max-width: 300px;
+    flex-wrap: wrap;
+    justify-content: center;
   }
   .skill__item{
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .logo__skill{
+      width: 50px;
+      height: 50px;
+    }
     .skill__title{
       font-size: 0.2em;
     }
@@ -180,10 +185,12 @@ h2{
 .project__section{
   display: flex;
   flex-direction: column;
+
   align-items: center;
   .skills__list{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
     justify-content: center;
     margin: 15px 0 35px 0;
@@ -193,21 +200,39 @@ h2{
     text-align: center;
     max-width: 1000px;
   }
-}
+  .project__image__container{
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    justify-content: center;
+    gap: 30px;
+    .project__image{
+      max-width: 800px;
+      box-shadow: 0px 0px 18px -3px rgba(0,0,0,0.1);
+      border-radius: 10px;
+    }
+  }
 
-.projects__list{
-  margin-top: 60px;
-  margin-bottom: 150px;
-  padding: 0;
-  list-style: none;
-  .project__title{
-    padding-top: 10px;
-    text-align: center;
-    &:hover{
-      color: $action;
+}
+.portfolio__container{
+  height: 80vh;
+  .projects__list{
+    margin-top: 60px;
+    margin-bottom: 150px;
+    padding: 0;
+    list-style: none;
+    .project__title{
+      animation: comeFromBottom 500ms ease-in-out;
+      padding-top: 10px;
+      text-align: center;
+      &:hover{
+        color: $action;
+      }
     }
   }
 }
+
 .badge{
   font-size: 0.7em;
   padding: 5px  20px;
@@ -223,6 +248,7 @@ h2{
   background-color: $blue;
   color: $background;
   text-align: center;
+  margin-bottom: 35px;
   .contact__title{
     margin-bottom: 50px;
   }
@@ -233,6 +259,9 @@ h2{
       font-weight: 700;
     }
   }
+}
+.section__legal{
+  text-align: center;
 }
 @media only screen and (max-width: 500px){
   .navbar{
@@ -304,6 +333,14 @@ h2{
       font-size: 1em;
     }
     margin-bottom: 25px;
+    .project__image__container{
+      .project__image{
+        max-width: 300px;
+      }
+    }
+    .skills__list{
+      max-width: 300px;
+    }
   }
   .cta{
     font-size: 0.8em;
@@ -312,15 +349,6 @@ h2{
     font-size: 0.8em;
     position: static;
     justify-content: space-between;
-    .footer__github{
-      order: 1;
-    }
-    .footer__legals{
-      order: 2;
-    }
-    .footer__lindekIn{
-      order: 3;
-    }
   }
 
 }

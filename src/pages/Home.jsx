@@ -5,6 +5,7 @@ import BackgroundImage from '../assets/images/background-image.png'
 import Skills from '../assets/datas/skills.json'
 import {useEffect} from "react";
 
+
 function Home() {
     // aniamtion gestion with delay
     useEffect(() => {
@@ -34,7 +35,7 @@ function Home() {
                 Je suis ravis de vous savoir ici !
             </h1>
             <span className="home__subtitle">
-                Anciennement graphiste, je me suis reconverti en développeur frontend.<br/>
+                Graphiste et développeur frontend.
                 Avec ces deux casquettes, je vous propose de créer un design unique et personnalisé pour votre site internet.
             </span>
             <div className="home__cta__container">
@@ -56,9 +57,11 @@ function Home() {
         <section className="section__about" style={sectionStyle} id="about">
             <img src={Portrait} alt="portrait-Loic-Galland" className="about__image"/>
             <h2 className="about__title">À propos</h2>
-            <p className="about__description">Comme vous avez pu le lire, le métier de développeur frontend n’est pas ma première fonction.
-                J’ai exercé le métier de graphiste pendant plusieurs années avant de me lancer dans le développement.
+            <p className="about__description">
+                Des bases solides en graphisme, combinées à une connaissance approfondie des technologies du développeur frontend
+                me permettent de vous proposer une solution personnalisée et précise pour votre site web.
                 Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a href="#" className="link__text">curriculum vitae</a>
+
             </p>
             <p>
                 Vous avez un projet et vous voulez en parler c’est par <Link to="/contact" className="link__text">ici</Link>
@@ -71,7 +74,7 @@ function Home() {
                         className="skill__item"
                         key={index}
                     >
-                        <i className={skill.url}></i>
+                        <img src={skill.url} alt={skill.title} className="logo__skill"/>
                         <span className="skill__title">{skill.title}</span>
                     </div>
                 ))}

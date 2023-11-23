@@ -88,11 +88,8 @@ h2 {
 }
 
 .footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   gap: 20px;
   padding: 0 25px 25px 25px;
@@ -120,6 +117,7 @@ h2 {
   color: #0D0B5B;
 }
 .section__homepage .home__subtitle {
+  max-width: 800px;
   text-align: center;
   font-weight: 400;
   font-size: 1.3em;
@@ -149,7 +147,6 @@ h2 {
   align-items: center;
   gap: 15px;
   padding: 300px 0 100px 0;
-  margin-bottom: 50px;
   color: #FBF9FD;
 }
 .section__about .about__image {
@@ -168,11 +165,18 @@ h2 {
   margin-top: 20px;
   gap: 30px;
   font-size: 3em;
+  max-width: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .section__about .skill__item {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.section__about .skill__item .logo__skill {
+  width: 50px;
+  height: 50px;
 }
 .section__about .skill__item .skill__title {
   font-size: 0.2em;
@@ -186,6 +190,7 @@ h2 {
 .project__section .skills__list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 15px;
   justify-content: center;
   margin: 15px 0 35px 0;
@@ -195,18 +200,35 @@ h2 {
   text-align: center;
   max-width: 1000px;
 }
+.project__section .project__image__container {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  justify-content: center;
+  gap: 30px;
+}
+.project__section .project__image__container .project__image {
+  max-width: 800px;
+  box-shadow: 0px 0px 18px -3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
 
-.projects__list {
+.portfolio__container {
+  height: 80vh;
+}
+.portfolio__container .projects__list {
   margin-top: 60px;
   margin-bottom: 150px;
   padding: 0;
   list-style: none;
 }
-.projects__list .project__title {
+.portfolio__container .projects__list .project__title {
+  animation: comeFromBottom 500ms ease-in-out;
   padding-top: 10px;
   text-align: center;
 }
-.projects__list .project__title:hover {
+.portfolio__container .projects__list .project__title:hover {
   color: #fdbd5b;
 }
 
@@ -226,6 +248,7 @@ h2 {
   background-color: #0D0B5B;
   color: #FBF9FD;
   text-align: center;
+  margin-bottom: 35px;
 }
 .section__contact .contact__title {
   margin-bottom: 50px;
@@ -236,6 +259,10 @@ h2 {
 }
 .section__contact .contact__phone .phone__number {
   font-weight: 700;
+}
+
+.section__legal {
+  text-align: center;
 }
 
 @media only screen and (max-width: 500px) {
@@ -307,6 +334,12 @@ h2 {
     max-width: 300px;
     font-size: 1em;
   }
+  .project__section .project__image__container .project__image {
+    max-width: 300px;
+  }
+  .project__section .skills__list {
+    max-width: 300px;
+  }
   .cta {
     font-size: 0.8em;
   }
@@ -314,15 +347,6 @@ h2 {
     font-size: 0.8em;
     position: static;
     justify-content: space-between;
-  }
-  .footer .footer__github {
-    order: 1;
-  }
-  .footer .footer__legals {
-    order: 2;
-  }
-  .footer .footer__lindekIn {
-    order: 3;
   }
 }
 @keyframes shakeWithDelay {

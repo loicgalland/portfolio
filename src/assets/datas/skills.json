@@ -1,18 +1,30 @@
 [
   {
     "title": "Html",
-    "url": "fa-brands fa-html5"
+    "url": "../src/assets/images/logos/Html.png"
   },
   {
     "title": "Css",
-    "url": "fa-brands fa-css3-alt"
+    "url": "../src/assets/images/logos/Css.png"
   },
   {
     "title": "JavaScript",
-    "url": "fa-brands fa-square-js"
+    "url": "../src/assets/images/logos/JavaScript.png"
   },
   {
     "title": "React",
-    "url": "fa-brands fa-react"
+    "url": "../src/assets/images/logos/React.png"
+  },
+  {
+  "title": "MongoDb",
+  "url": "../src/assets/images/logos/MongoDb.png"
+  },
+  {
+  "title": "Node JS",
+  "url": "../src/assets/images/logos/NodeJs.png"
+  },
+  {
+    "title": "Git",
+    "url": "../src/assets/images/logos/Git.png"
   }
 ]

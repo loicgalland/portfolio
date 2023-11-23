@@ -2,11 +2,33 @@
   {
     "id": "1abcd",
     "title": "Booki",
-    "imageUrl": [
-      "",
-      ""
+    "images": [
+      {
+        "url": "../src/assets/images/Booki/Booki-1.png",
+        "alt": "Site Booki partie haute"
+      },
+      {
+        "url": "../src/assets/images/Booki/Booki-2.png",
+        "alt": "Site Booki partie basse"
+      },
+      {
+        "url": "../src/assets/images/Booki/Booki-mobile-1.webp",
+        "alt": "Site Booki mobile 1"
+      },
+      {
+        "url": "../src/assets/images/Booki/Booki-mobile-2.webp",
+        "alt": "Site Booki mobile 2"
+      },
+      {
+        "url": "../src/assets/images/Booki/Booki-mobile-3.webp",
+        "alt": "Site Booki mobile 3"
+      },
+      {
+        "url": "../src/assets/images/Booki/Booki-mobile-4.webp",
+        "alt": "Site Booki mobile 4"
+      }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. L’objectif de cet exercice était de découvrir, comprendre et prendre en main les langages de base de création de site internet : le HTML et le CSS. Projet de création de la partie frontend d’un site de réservation d’hébergement en ligne : Booki.",
     "skills": [
       "HTML",
       "CSS"
@@ -16,26 +38,54 @@
   {
     "id": "2zedaf",
     "title": "Sophie Buel",
-    "imageUrl": [
-      "",
-      ""
+    "images": [
+      {
+        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-1.png",
+        "alt": "Site Sohpie Buel-1"
+      },
+      {
+        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-2.png",
+        "alt": "Site Sohpie Buel-2"
+      },
+      {
+        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-3.png",
+        "alt": "Site Sohpie Buel-3"
+      },
+      {
+        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-4.png",
+        "alt": "Site Sohpie Buel-3"
+      },
+      {
+        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-5.png",
+        "alt": "Site Sohpie Buel-5"
+      }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Prise en main de JavaScript pour créer des pages web dynamiques. En effet, ici toutes les informations concernant mes projets de cette architecte d’intérieur sont stockés dans une bases de données. La page est générée en fonction de ces données, ce qui facilite grandement la maintenance du site grâce à un compte administrateur. ",
     "skills": [
       "HTML",
       "CSS",
       "JavaScript"
     ],
-    "website": "urlwebsite"
+    "website": ""
   },
   {
     "id": "3defc",
     "title": "Kasa",
-    "imageUrl": [
-      "",
-      ""
+    "images": [
+      {
+        "url": "../src/assets/images/Kasa/Kasa-1.png",
+        "alt": "Site Kasa 1"
+      },
+      {
+        "url": "../src/assets/images/Kasa/Kasa-2.png",
+        "alt": "Site Kasa 2"
+      },
+      {
+        "url": "../src/assets/images/Kasa/Kasa-3.png",
+        "alt": "Site Kasa 3"
+      }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Découverte de React avec le système de composants, ces hooks, le router,… Ce site est une Simple Page Application, le système de routes permet de gérer la navigation vers les différentes pages.",
     "skills": [
       "HTML",
       "CSS",
@@ -48,9 +98,15 @@
   {
     "id": "4fekdfc",
     "title": "Météo",
-    "imageUrl": [
-      "",
-      ""
+    "images": [
+      {
+        "url": "../src/assets/images/Meteo/Meteo-1.webp",
+        "alt": "Météo 1"
+      },
+      {
+        "url": "../src/assets/images/Meteo/Meteo-2.webp",
+        "alt": "Météo 2"
+      }
     ],
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
     "skills": [
@@ -60,7 +116,7 @@
       "JavaScript",
       "React"
     ],
-    "website": "urlwebsite"
+    "website": ""
   },
   {
     "id": "5ehdfj",
