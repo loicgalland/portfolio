@@ -4,11 +4,11 @@
     "title": "Booki",
     "images": [
       {
-        "url": "../src/assets/images/Booki/Booki-1.png",
+        "url": "../src/assets/images/Booki-1.png",
         "alt": "Site Booki partie haute"
       },
       {
-        "url": "../src/assets/images/Booki/Booki-2.png",
+        "url": "../src/assets/images/Booki-2.png",
         "alt": "Site Booki partie basse"
       },
       {
@@ -16,15 +16,15 @@
         "alt": "Site Booki mobile 1"
       },
       {
-        "url": "../src/assets/images/Booki/Booki-mobile-2.webp",
+        "url": "../src/assets/images/Booki-mobile-2.webp",
         "alt": "Site Booki mobile 2"
       },
       {
-        "url": "../src/assets/images/Booki/Booki-mobile-3.webp",
+        "url": "../src/assets/images/Booki-mobile-3.webp",
         "alt": "Site Booki mobile 3"
       },
       {
-        "url": "../src/assets/images/Booki/Booki-mobile-4.webp",
+        "url": "../src/assets/images/Booki-mobile-4.webp",
         "alt": "Site Booki mobile 4"
       }
     ],
@@ -41,23 +41,23 @@
     "title": "Sophie Buel",
     "images": [
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-1.png",
+        "url": "../src/assets/images/Sophie-Buel-1.png",
         "alt": "Site Sohpie Buel-1"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-2.png",
+        "url": "../src/assets/images/Sophie-Buel-2.png",
         "alt": "Site Sohpie Buel-2"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-3.png",
+        "url": "../src/assets/images/Sophie-Buel-3.png",
         "alt": "Site Sohpie Buel-3"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-4.png",
+        "url": "../src/assets/images/Sophie-Buel-4.png",
         "alt": "Site Sohpie Buel-3"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-5.png",
+        "url": "../src/assets/images/Sophie-Buel-5.png",
         "alt": "Site Sohpie Buel-5"
       }
     ],
@@ -75,15 +75,15 @@
     "title": "Kasa",
     "images": [
       {
-        "url": "../src/assets/images/Kasa/Kasa-1.png",
+        "url": "../src/assets/images/Kasa-1.png",
         "alt": "Site Kasa 1"
       },
       {
-        "url": "../src/assets/images/Kasa/Kasa-2.png",
+        "url": "../src/assets/images/Kasa-2.png",
         "alt": "Site Kasa 2"
       },
       {
-        "url": "../src/assets/images/Kasa/Kasa-3.png",
+        "url": "../src/assets/images/Kasa-3.png",
         "alt": "Site Kasa 3"
       }
     ],
@@ -103,11 +103,11 @@
     "title": "Météo",
     "images": [
       {
-        "url": "../src/assets/images/Meteo/Meteo-1.webp",
+        "url": "../src/assets/images/Meteo-1.webp",
         "alt": "Météo 1"
       },
       {
-        "url": "../src/assets/images/Meteo/Meteo-2.webp",
+        "url": "../src/assets/images/Meteo-2.webp",
         "alt": "Météo 2"
       }
     ],
@@ -127,19 +127,19 @@
     "title": "Mon Vieux Grimoire",
     "images": [
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-1.webp",
+        "url": "../src/assets/images/Mon-Vieux-Grimoire-1.webp",
         "alt": "Mon vieux Grimoire 1"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-2.webp",
+        "url": "../src/assets/images/Mon-Vieux-Grimoire-2.webp",
         "alt": "Mon vieux Grimoire 2"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-3.webp",
+        "url": "../src/assets/images/Mon-Vieux-Grimoire-3.webp",
         "alt": "Mon vieux Grimoire 3"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-4.webp",
+        "url": "../src/assets/images/Mon-Vieux-Grimoire-4.webp",
         "alt": "Mon vieux Grimoire 4"
       }
     ],
