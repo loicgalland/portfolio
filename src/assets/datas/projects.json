@@ -4,7 +4,7 @@
     "title": "Booki",
     "images": [
       {
-        "url": "../public/images/Booki/Booki-1.png",
+        "url": "../../public/images/Booki/Booki-1.png",
         "alt": "Site Booki partie haute"
       },
       {
