@@ -6,6 +6,7 @@ import Skills from '../assets/datas/skills.json'
 import {useEffect} from "react";
 
 
+
 function Home() {
     // aniamtion gestion with delay
     useEffect(() => {
