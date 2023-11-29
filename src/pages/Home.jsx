@@ -32,7 +32,7 @@ function Home() {
         <section className="section__homepage">
             <h1 className="home__title">Hello !<br/>
                 Je m’appelle <span className="home__title--blue">Loïc Galland</span><br/>
-                Je suis ravis de vous savoir ici !
+                Je suis ravi de vous savoir ici !
             </h1>
             <span className="home__subtitle">
                 Graphiste et développeur frontend.
@@ -60,7 +60,7 @@ function Home() {
             <p className="about__description">
                 Des bases solides en graphisme, combinées à une connaissance approfondie des technologies du développeur frontend
                 me permettent de vous proposer une solution personnalisée et précise pour votre site web.
-                Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a href="#" className="link__text">curriculum vitae</a>
+                Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a target="_blank" href="src/assets/images/CV_LoïcGalland.pdf" className="link__text">curriculum vitae</a>
 
             </p>
             <p>

@@ -87,6 +87,13 @@ h2 {
   color: #fdd8a0;
 }
 
+.link__text-blue {
+  text-decoration: underline;
+}
+.link__text-blue:hover {
+  color: #5f5c98;
+}
+
 .footer {
   display: flex;
   justify-content: center;

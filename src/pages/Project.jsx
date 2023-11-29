@@ -22,7 +22,8 @@ export default function Project(){
                 ))}
             </div>
             <p className="project__description">{projectSearch.description}</p>
-            {projectSearch.website  ? <a href={projectSearch.website} className="link__text">Visiter le site</a> : ""}
+            {projectSearch.website  ? <a href={projectSearch.website} className="link__text" target="_blank">Visiter le site</a> : ""}
+            {projectSearch.github  ? <a href={projectSearch.github} className="link__text-blue" target="_blank">Visiter le github</a> : ""}
             <div className="project__image__container">
                 {images.map((image, index) =>(
                     <img

@@ -33,7 +33,8 @@
       "HTML",
       "CSS"
     ],
-    "website": "urlwebsite"
+    "website": "https://loicgalland.github.io/Booki/",
+    "github": "https://github.com/loicgalland/Booki"
   },
   {
     "id": "2zedaf",
@@ -66,7 +67,8 @@
       "CSS",
       "JavaScript"
     ],
-    "website": ""
+    "website": "",
+    "github": "https://github.com/loicgalland/Sophie-Buel"
   },
   {
     "id": "3defc",
@@ -85,7 +87,7 @@
         "alt": "Site Kasa 3"
       }
     ],
-    "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Découverte de React avec le système de composants, ces hooks, le router,… Ce site est une Simple Page Application, le système de routes permet de gérer la navigation vers les différentes pages.",
+    "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Découverte de React avec le système de composants, ces hooks, le router… Ce site est une Simple Page Application, le système de routes permet de gérer la navigation vers les différentes pages.",
     "skills": [
       "HTML",
       "CSS",
@@ -93,7 +95,8 @@
       "JavaScript",
       "React"
     ],
-    "website": "urlwebsite"
+    "website": "https://kasa-7wqp7f4rs-loicgallands-projects.vercel.app/hotel/:c67ab8a7",
+    "github": "https://github.com/loicgalland/Kasa"
   },
   {
     "id": "4fekdfc",
@@ -108,7 +111,7 @@
         "alt": "Météo 2"
       }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "description": "Ce projet d’application était l’occasion de mettre en pratique tout ce que j’avais appris. Récupération de données depuis une API (OpenWeather), créer et utiliser des composants React, communiquer entre ces différents composants, générer du contenu… ",
     "skills": [
       "HTML",
       "CSS",
@@ -116,47 +119,39 @@
       "JavaScript",
       "React"
     ],
-    "website": ""
+    "website": "",
+    "github": "https://github.com/loicgalland/MeteoApp"
   },
   {
     "id": "5ehdfj",
-    "title": "Musée de la porte du Croux",
-    "imageUrl": [
-      "",
-      ""
+    "title": "Mon Vieux Grimoire",
+    "images": [
+      {
+        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-1.webp",
+        "alt": "Mon vieux Grimoire 1"
+      },
+      {
+        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-2.webp",
+        "alt": "Mon vieux Grimoire 2"
+      },
+      {
+        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-3.webp",
+        "alt": "Mon vieux Grimoire 3"
+      },
+      {
+        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-4.webp",
+        "alt": "Mon vieux Grimoire 4"
+      }
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
+    "description": "Ce projet intervient dans le cadre de ma formation de développeur web chez Openclassroom. L’objectif principal de ce projet est de comprendre et des réaliser toute la partie backend d’un site de partage de notation de livres. La base de donnée utilisée est MongoDB. ",
     "skills": [
-      "Graphsime",
-      "Photoshop",
-      "InDesign",
-      "Illustrator"
-    ]
-  },
-  {
-    "id": "6okrd",
-    "title": "Pandout",
-    "imageUrl": [
-      "",
-      ""
+      "JavaScript",
+      "React",
+      "Express Js",
+      "Node Js",
+      "MongoDb"
     ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
-    "skills": [
-      "Graphsime",
-      "Illustrator"
-    ]
-  },
-  {
-    "id": "6edfhjnxc",
-    "title": "KIN",
-    "imageUrl": [
-      "",
-      ""
-    ],
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in ",
-    "skills": [
-      "Illustration",
-      "Illustrator"
-    ]
+    "website": "",
+    "github": "https://github.com/loicgalland/Mon-Vieux-Grimoire"
   }
 ]

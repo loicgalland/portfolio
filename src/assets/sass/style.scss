@@ -2,6 +2,7 @@ $blue: #0D0B5B;
 $background: #FBF9FD;
 $action: #fdbd5b;
 $hoverLink: #fdd8a0;
+$hoverLinkBlue: #5f5c98;
 
 body{
   padding: 0;
@@ -86,6 +87,12 @@ h2{
   text-decoration: underline;
   &:hover{
     color: $hoverLink;
+  }
+}
+.link__text-blue{
+  text-decoration: underline;
+  &:hover{
+    color: $hoverLinkBlue;
   }
 }
 .footer{

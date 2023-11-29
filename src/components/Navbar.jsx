@@ -24,7 +24,7 @@ export default function Navbar(){
                 <NavLink
                     to="/"
                     className={({ isActive})=> isActive ? "active" : ""}
-                    onClick={openMenu}>Home
+                    onClick={openMenu}>Accueil
                 </NavLink>
                 <NavLink
                     to="/portfolio"
