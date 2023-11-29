@@ -1,7 +1,7 @@
 import Cta from "../components/Cta.jsx";
 import {Link} from "react-router-dom";
-import Portrait from '../images/portrait.webp'
-import BackgroundImage from '../images/background-image.png'
+import Portrait from '../assets/images/portrait.webp'
+import BackgroundImage from '../assets/images/background-image.png'
 import Skills from '../assets/datas/skills.json'
 import {useEffect} from "react";
 
@@ -60,7 +60,7 @@ function Home() {
             <p className="about__description">
                 Des bases solides en graphisme, combinées à une connaissance approfondie des technologies du développeur frontend
                 me permettent de vous proposer une solution personnalisée et précise pour votre site web.
-                Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a target="_blank" href="../images/CV_LoïcGalland.pdf" className="link__text">curriculum vitae</a>
+                Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a target="_blank" href="../assets/images/CV_LoïcGalland.pdf" className="link__text">curriculum vitae</a>
 
             </p>
             <p>

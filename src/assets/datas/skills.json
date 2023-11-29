@@ -1,30 +1,30 @@
 [
   {
     "title": "Html",
-    "url": "../images/logos/Html.png"
+    "url": "../src/assets/images/logos/Html.png"
   },
   {
     "title": "Css",
-    "url": "../images/logos/Css.png"
+    "url": "../src/assets/images/logos/Css.png"
   },
   {
     "title": "JavaScript",
-    "url": "../images/logos/JavaScript.png"
+    "url": "../src/assets/images/logos/JavaScript.png"
   },
   {
     "title": "React",
-    "url": "../images/logos/React.png"
+    "url": "../src/assets/images/logos/React.png"
   },
   {
   "title": "MongoDb",
-  "url": "../images/logos/MongoDb.png"
+  "url": "../src/assets/images/logos/MongoDb.png"
   },
   {
   "title": "Node JS",
-  "url": "../images/logos/NodeJs.png"
+  "url": "../src/assets/images/logos/NodeJs.png"
   },
   {
     "title": "Git",
-    "url": "../images/logos/Git.png"
+    "url": "../src/assets/images/logos/Git.png"
   }
 ]
