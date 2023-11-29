@@ -4,27 +4,27 @@
     "title": "Booki",
     "images": [
       {
-        "url": "../src/assets/images/Booki-1.png",
+        "url": "/assets/images/Booki-1.png",
         "alt": "Site Booki partie haute"
       },
       {
-        "url": "../src/assets/images/Booki-2.png",
+        "url": "/assets/images/Booki-2.png",
         "alt": "Site Booki partie basse"
       },
       {
-        "url": "../src/assets/images/Booki/Booki-mobile-1.webp",
+        "url": "/assets/images/Booki/Booki-mobile-1.webp",
         "alt": "Site Booki mobile 1"
       },
       {
-        "url": "../src/assets/images/Booki-mobile-2.webp",
+        "url": "/assets/images/Booki-mobile-2.webp",
         "alt": "Site Booki mobile 2"
       },
       {
-        "url": "../src/assets/images/Booki-mobile-3.webp",
+        "url": "/assets/images/Booki-mobile-3.webp",
         "alt": "Site Booki mobile 3"
       },
       {
-        "url": "../src/assets/images/Booki-mobile-4.webp",
+        "url": "/assets/images/Booki-mobile-4.webp",
         "alt": "Site Booki mobile 4"
       }
     ],
