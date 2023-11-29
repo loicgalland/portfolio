@@ -1,30 +1,30 @@
 [
   {
     "title": "Html",
-    "url": "../src/assets/images/logos/Html.png"
+    "url": "https://imagizer.imageshack.com/v2/240x240q70/c/r/923/LP8N4V.png"
   },
   {
     "title": "Css",
-    "url": "../src/assets/images/logos/Css.png"
+    "url": "https://imagizer.imageshack.com/img924/2859/vJdYjz.png"
   },
   {
     "title": "JavaScript",
-    "url": "../src/assets/images/logos/JavaScript.png"
+    "url": "https://imagizer.imageshack.com/img922/1402/DJDDez.png"
   },
   {
     "title": "React",
-    "url": "../src/assets/images/logos/React.png"
+    "url": "https://imagizer.imageshack.com/img923/2567/VOn4TX.png"
   },
   {
   "title": "MongoDb",
-  "url": "../src/assets/images/logos/MongoDb.png"
+  "url": "https://imagizer.imageshack.com/img924/9803/ouKvEz.png"
   },
   {
   "title": "Node JS",
-  "url": "../src/assets/images/logos/NodeJs.png"
+  "url": "https://imagizer.imageshack.com/img923/4426/uAaNap.png"
   },
   {
     "title": "Git",
-    "url": "../src/assets/images/logos/Git.png"
+    "url": "https://imagizer.imageshack.com/img922/1294/ZFN30w.png"
   }
 ]

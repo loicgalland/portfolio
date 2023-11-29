@@ -41,23 +41,23 @@
     "title": "Sophie Buel",
     "images": [
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-1.png",
+        "url": "https://github.com/loicgalland/Sophie-Buel",
         "alt": "Site Sohpie Buel-1"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-2.png",
+        "url": "https://imagizer.imageshack.com/img922/9261/l0XedT.png",
         "alt": "Site Sohpie Buel-2"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-3.png",
+        "url": "https://imagizer.imageshack.com/img924/7647/mKclg7.png",
         "alt": "Site Sohpie Buel-3"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-4.png",
+        "url": "https://imagizer.imageshack.com/img923/8157/8RWffD.png",
         "alt": "Site Sohpie Buel-3"
       },
       {
-        "url": "../src/assets/images/Sophie-Buel/Sophie-Buel-5.png",
+        "url": "https://imagizer.imageshack.com/img922/5203/HAuaez.png",
         "alt": "Site Sohpie Buel-5"
       }
     ],
@@ -75,15 +75,15 @@
     "title": "Kasa",
     "images": [
       {
-        "url": "../src/assets/images/Kasa/Kasa-1.png",
+        "url": "https://imagizer.imageshack.com/img924/828/ywGjXg.png",
         "alt": "Site Kasa 1"
       },
       {
-        "url": "../src/assets/images/Kasa/Kasa-2.png",
+        "url": "https://imagizer.imageshack.com/img923/6591/tvhDnl.png",
         "alt": "Site Kasa 2"
       },
       {
-        "url": "../src/assets/images/Kasa/Kasa-3.png",
+        "url": "https://imagizer.imageshack.com/img924/2867/nVJmNY.png",
         "alt": "Site Kasa 3"
       }
     ],
@@ -103,11 +103,11 @@
     "title": "Météo",
     "images": [
       {
-        "url": "../src/assets/images/Meteo/Meteo-1.webp",
+        "url": "https://imagizer.imageshack.com/img922/274/LS3GXX.png",
         "alt": "Météo 1"
       },
       {
-        "url": "../src/assets/images/Meteo/Meteo-2.webp",
+        "url": "https://imagizer.imageshack.com/img923/5681/3LZmsg.png",
         "alt": "Météo 2"
       }
     ],
@@ -127,19 +127,19 @@
     "title": "Mon Vieux Grimoire",
     "images": [
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-1.webp",
+        "url": "https://imagizer.imageshack.com/img923/4714/bZnkMz.png",
         "alt": "Mon vieux Grimoire 1"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-2.webp",
+        "url": "https://imagizer.imageshack.com/img923/5034/txCoap.png",
         "alt": "Mon vieux Grimoire 2"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-3.webp",
+        "url": "https://imagizer.imageshack.com/img924/8651/63nd7y.png",
         "alt": "Mon vieux Grimoire 3"
       },
       {
-        "url": "../src/assets/images/Mon-Vieux-Grimoire/Mon-Vieux-Grimoire-4.webp",
+        "url": "https://imagizer.imageshack.com/img922/8470/Kdn88x.png",
         "alt": "Mon vieux Grimoire 4"
       }
     ],
