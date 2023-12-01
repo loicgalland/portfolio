@@ -344,6 +344,9 @@ h2 {
   .project__section .project__image__container .project__image {
     max-width: 300px;
   }
+  .project__section .project__image__container .image__mobile {
+    max-width: 100px;
+  }
   .project__section .skills__list {
     max-width: 300px;
   }

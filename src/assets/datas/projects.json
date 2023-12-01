@@ -5,27 +5,33 @@
     "images": [
       {
         "url": "https://imagizer.imageshack.com/img923/7510/yamqFU.png",
-        "alt": "Site Booki partie haute"
+        "alt": "Site Booki partie haute",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img924/892/WUsldV.png",
-        "alt": "Site Booki partie basse"
+        "alt": "Site Booki partie basse",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img923/1825/XbESVT.png",
-        "alt": "Site Booki mobile 1"
+        "alt": "Site Booki mobile 1",
+        "mobile":  true
       },
       {
         "url": "https://imagizer.imageshack.com/img923/9721/hFYgCh.jpg",
-        "alt": "Site Booki mobile 2"
+        "alt": "Site Booki mobile 2",
+        "mobile":  true
       },
       {
         "url": "https://imagizer.imageshack.com/img923/7875/UmQdBH.png",
-        "alt": "Site Booki mobile 3"
+        "alt": "Site Booki mobile 3",
+        "mobile":  true
       },
       {
         "url": "https://imagizer.imageshack.com/img923/9465/rUllD8.png",
-        "alt": "Site Booki mobile 4"
+        "alt": "Site Booki mobile 4",
+        "mobile":  true
       }
     ],
     "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. L’objectif de cet exercice était de découvrir, comprendre et prendre en main les langages de base de création de site internet : le HTML et le CSS. Projet de création de la partie frontend d’un site de réservation d’hébergement en ligne : Booki.",
@@ -42,23 +48,28 @@
     "images": [
       {
         "url": "https://github.com/loicgalland/Sophie-Buel",
-        "alt": "Site Sohpie Buel-1"
+        "alt": "Site Sohpie Buel-1",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img922/9261/l0XedT.png",
-        "alt": "Site Sohpie Buel-2"
+        "alt": "Site Sohpie Buel-2",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img924/7647/mKclg7.png",
-        "alt": "Site Sohpie Buel-3"
+        "alt": "Site Sohpie Buel-3",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img923/8157/8RWffD.png",
-        "alt": "Site Sohpie Buel-3"
+        "alt": "Site Sohpie Buel-3",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img922/5203/HAuaez.png",
-        "alt": "Site Sohpie Buel-5"
+        "alt": "Site Sohpie Buel-5",
+        "mobile":  false
       }
     ],
     "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Prise en main de JavaScript pour créer des pages web dynamiques. En effet, ici toutes les informations concernant mes projets de cette architecte d’intérieur sont stockés dans une bases de données. La page est générée en fonction de ces données, ce qui facilite grandement la maintenance du site grâce à un compte administrateur. ",
@@ -76,15 +87,18 @@
     "images": [
       {
         "url": "https://imagizer.imageshack.com/img924/828/ywGjXg.png",
-        "alt": "Site Kasa 1"
+        "alt": "Site Kasa 1",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img923/6591/tvhDnl.png",
-        "alt": "Site Kasa 2"
+        "alt": "Site Kasa 2",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img924/2867/nVJmNY.png",
-        "alt": "Site Kasa 3"
+        "alt": "Site Kasa 3",
+        "mobile":  false
       }
     ],
     "description": "Projet réalisé dans le cadre de ma formation de développeur web chez Openclassroom. Découverte de React avec le système de composants, ces hooks, le router… Ce site est une Simple Page Application, le système de routes permet de gérer la navigation vers les différentes pages.",
@@ -104,11 +118,13 @@
     "images": [
       {
         "url": "https://imagizer.imageshack.com/v2/800x600q70/923/3LZmsg.png",
-        "alt": "Météo 1"
+        "alt": "Météo 1",
+        "mobile":  true
       },
       {
         "url": "https://imagizer.imageshack.com/v2/800x600q70/922/LS3GXX.png",
-        "alt": "Météo 2"
+        "alt": "Météo 2",
+        "mobile":  true
       }
     ],
     "description": "Ce projet d’application était l’occasion de mettre en pratique tout ce que j’avais appris. Récupération de données depuis une API (OpenWeather), créer et utiliser des composants React, communiquer entre ces différents composants, générer du contenu… ",
@@ -128,19 +144,23 @@
     "images": [
       {
         "url": "https://imagizer.imageshack.com/img923/4714/bZnkMz.png",
-        "alt": "Mon vieux Grimoire 1"
+        "alt": "Mon vieux Grimoire 1",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img923/5034/txCoap.png",
-        "alt": "Mon vieux Grimoire 2"
+        "alt": "Mon vieux Grimoire 2",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img924/8651/63nd7y.png",
-        "alt": "Mon vieux Grimoire 3"
+        "alt": "Mon vieux Grimoire 3",
+        "mobile":  false
       },
       {
         "url": "https://imagizer.imageshack.com/img922/8470/Kdn88x.png",
-        "alt": "Mon vieux Grimoire 4"
+        "alt": "Mon vieux Grimoire 4",
+        "mobile":  false
       }
     ],
     "description": "Ce projet intervient dans le cadre de ma formation de développeur web chez Openclassroom. L’objectif principal de ce projet est de comprendre et des réaliser toute la partie backend d’un site de partage de notation de livres. La base de donnée utilisée est MongoDB. ",

@@ -3,6 +3,7 @@ import projects from "../assets/datas/projects.json";
 import Badge from "../components/Badge.jsx";
 
 
+
 export default function Project(){
     // recuperation of the project id
     const {idWork}= useParams()
@@ -30,7 +31,7 @@ export default function Project(){
                         key={index}
                         src={image.url}
                         alt={image.alt}
-                        className="project__image"/>
+                        className={`project__image ${image.mobile ? "image__mobile" : ""}`}/>
                 ))}
             </div>
         </div>
