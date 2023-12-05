@@ -71,11 +71,11 @@ function Home() {
             <div className="container__experiences">
                 <h2>Mon parcours</h2>
                 <div className="experience__items">
-                    <span>2014-2016 - <span className="strong">BTS design graphique </span>(ESAAB, Nevers, 58)</span>
-                    <span>2016-2018 - <span className="strong">DSAA mention Graphisme</span> (ESAAB, Nevers, 58)</span>
-                    <span>09/2018-03/2019 <span className="strong">Échange Universitaire </span>(Suzhou Art and Design School, Chine)</span>
-                    <span>2019-2023 - <span className="strong">Infographiste</span> (Manhattan, Marcigny, 71)</span>
                     <span>09/2023-12/2023 - <span className="strong">Formation Développeur web</span> (Openclassroom) </span>
+                    <span>2019-2023 - <span className="strong">Infographiste</span> (Manhattan, Marcigny, 71)</span>
+                    <span>09/2018-03/2019 <span className="strong">Échange Universitaire </span>(Suzhou Art and Design School, Chine)</span>
+                    <span>2016-2018 - <span className="strong">DSAA mention Graphisme</span> (ESAAB, Nevers, 58)</span>
+                    <span>2014-2016 - <span className="strong">BTS Design Graphique </span>(ESAAB, Nevers, 58)</span
                 </div>
             </div>
             <h2 className="about__skills__title">Mes compétences</h2>
