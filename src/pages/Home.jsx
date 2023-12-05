@@ -60,7 +60,7 @@ function Home() {
                 <p className="about__description">
                     Des bases solides en graphisme, combinées à une connaissance approfondie des technologies du développeur frontend
                     me permettent de vous proposer une solution personnalisée et précise pour votre site web.
-                    Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a target="_blank" href="../assets/images/CV_LoïcGalland.pdf" className="link__text">curriculum vitae</a>
+                    Si vous souhaitez en savoir plus au sujet de mon parcours, je vous invite à consulter mon <a target="_blank" href="../assets/CV_Loic_Galland.pdf" className="link__text">curriculum vitae</a>
 
                 </p>
                 <p>
