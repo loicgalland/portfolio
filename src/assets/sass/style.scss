@@ -152,8 +152,8 @@ h2{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
-  padding: 300px 0 100px 0;
+  gap: 30px;
+  padding:300px 0 200px 0;
   color: $background;
   .about__image{
     border-radius: 10px;
@@ -186,6 +186,22 @@ h2{
     }
     .skill__title{
       font-size: 0.2em;
+    }
+  }
+  .container__experiences{
+    h2{
+      margin: 20px;
+      font-size: 2.5em;
+    }
+    .experience__items{
+      .strong{
+        font-weight: 700;
+      }
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
     }
   }
 }
@@ -326,12 +342,15 @@ h2{
       order: 3;
       font-size: 1em;
     }
-    .about__skills__title{
+    .container__experiences{
       order: 4;
+    }
+    .about__skills__title{
+      order: 5;
       font-size: 2.2em;
     }
     .about__skills--logos{
-      order: 5;
+      order: 6;
     }
   }
   .project__section{
