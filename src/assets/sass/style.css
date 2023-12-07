@@ -367,6 +367,9 @@ h2 {
   .project__section .skills__list {
     max-width: 300px;
   }
+  .section__contact {
+    padding: 0 40px 0 40px;
+  }
   .cta {
     font-size: 0.8em;
   }
