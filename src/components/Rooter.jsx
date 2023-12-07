@@ -3,7 +3,6 @@ import Home from "../pages/Home.jsx";
 import Portfolio from "../pages/Portfolio.jsx";
 import Project from "../pages/Project.jsx";
 import Contact from "../pages/Contact.jsx";
-import Legal from "../pages/Legal.jsx";
 
 export default function Rooter() {
     return(
@@ -13,7 +12,6 @@ export default function Rooter() {
                 <Route path="/portfolio" element={<Portfolio />}></Route>
                 <Route path="/project/:idWork" element={<Project />}></Route>
                 <Route path="/contact" element={<Contact />}></Route>
-                <Route path="/legal" element={<Legal />}></Route>
             </Routes>
         </div>
     )
